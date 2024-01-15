@@ -32,7 +32,7 @@ npm install mariadb
 
 --------------------------------------------------------------
 expose application 
-EXPOSE 3000
+EXPOSE 3001
 RUN node server.js 
 ---------------------------------------------------------------
 * Build docker file * 
