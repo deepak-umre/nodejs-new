@@ -42,5 +42,8 @@ RUN node server.js
 * Run docker container
   docker run -d -P <image_id>
  -------------------------------------------------------------- 
+*visit your application 
+http://machine_ip:cootainer_port/login.html
 
+--------------------------------------------------------------
 
