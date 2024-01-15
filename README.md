@@ -26,7 +26,7 @@ craete dockerfile
 where you need to select nodejs image 
 and install following dependencies 
 npm init
-npm install express 
+npm install express 0
 npm install body-parser 
 npm install mariadb
 
@@ -34,3 +34,13 @@ npm install mariadb
 expose application 
 EXPOSE 3000
 RUN node server.js 
+---------------------------------------------------------------
+* Build docker file * 
+ docker build .
+* Add tag to image
+  docker image tag <image_id> my-app
+* Run docker container
+  docker run -d -P <image_id>
+ -------------------------------------------------------------- 
+
+
